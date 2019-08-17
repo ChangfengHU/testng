@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="thread" parallel="methods" thread-count="2">
+    <test name="demo1">
+        <classes>
+            <class name="com.example.demo.multiThread.MultiThreadOnXml"/>
+            <class name="com.example.demo.Test1"/>
+            <class name="com.example.demo.multiThread.MultiThreadOnXml"/>
+        </classes>
+    </test>
+    <test name="demo2">
+       <classes name="d3">
+           <class name="com.example.demo.Test1"/>
+       </classes>
+    </test>
+</suite>
