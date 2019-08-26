@@ -26,4 +26,5 @@ public class SuitConfig {
     public void afterTest() {
         System.out.println("afterTest");
     }
+
 }
