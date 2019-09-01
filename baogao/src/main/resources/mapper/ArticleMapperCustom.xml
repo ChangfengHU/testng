@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.mapper.ArticleMapperCustom" >
+
+	<select id="queryArticleById" resultType="com.example.demo.result.ArticleDTO"
+			parameterType="com.example.demo.query.ArticleQuery">
+		
+	 select
+	  id,
+	  gmt_time as gmtTime,
+	  title,
+	  content,
+	  author,
+	  avatar
+	  from article where id =  #{id}
+
+	</select>
+
+
+</mapper>
