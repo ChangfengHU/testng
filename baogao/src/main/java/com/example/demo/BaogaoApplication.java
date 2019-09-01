@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.example.demo"})//扫描接口
+@ComponentScan(basePackages = {"com.example.demo"})//扫描接口8
 @MapperScan(basePackages = "com.example.demo.mapper")
 public class BaogaoApplication {
 
